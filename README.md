@@ -12,10 +12,20 @@ pnpm install
 
 ## release
 
-Release your package. use `pnpm release` and step into the command line.
+To release your package, use the following command:
 
 ```shell
 
 pnpm release
+
+```
+
+## publish
+
+To publish your packages to npm, use the following command:
+
+```shell
+
+pnpm publish
 
 ```

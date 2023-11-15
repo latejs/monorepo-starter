@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "release": "npx changeset"
+    "release": "npx changeset",
+    "publish": "npx changeset publish"
   },
   "private": true,
   "keywords": [],
