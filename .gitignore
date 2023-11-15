@@ -1,0 +1,4 @@
+.log
+.changeset
+dist
+node_modules
