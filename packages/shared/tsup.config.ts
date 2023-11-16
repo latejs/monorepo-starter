@@ -8,7 +8,9 @@ export default defineConfig((options) => {
     sourcemap: !options.watch,
     clean: true,
     minify: !options.watch,
+    splitting: !options.watch,
     treeshake: true,
     legacyOutput: true,
+    shims: false,
   };
 });
